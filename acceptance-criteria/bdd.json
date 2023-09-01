@@ -18,6 +18,10 @@
 
         "WhenEvent": { "@id": "bdd:WhenEvent" },
 
+        "ScenarioHasObjects": { "@id": "bdd:ScenarioHasObjects" },
+        "ScenarioHasAgents": { "@id": "bdd:ScenarioHasAgents" },
+        "has-background": { "@id": "bdd:has-background", "@type": "@id" },
+
         "ScenarioTaskVariable": { "@id": "bdd:ScenarioTaskVariable" },
         "of-variable": { "@id": "bdd:of-variable", "@type": "@id" },
 
