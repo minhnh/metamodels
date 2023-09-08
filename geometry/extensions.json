@@ -1,0 +1,7 @@
+{
+    "@context": {
+        "geom": "https://hbrs-sesame.github.io/metamodels/geometry#",
+
+        "PoseFromPositionOrientation": { "@id": "geom:PoseFromPositionOrientation" }
+    }
+}

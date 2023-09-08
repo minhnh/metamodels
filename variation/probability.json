@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "prob": "https://hbrs-sesame.github.io/metamodels/variation/probability#",
+        "Distribution": { "@id": "prob:Distribution" },
+
+        "Discrete": { "@id": "prob:Discrete" },
+        "Continuous": { "@id": "prob:Continuous" },
+
+        "dimension": { "@id": "prob:dimension", "@type": "xsd:positiveInteger" },
+
+        "Normal": { "@id": "prob:Normal" },
+        "mean": { "@id": "prob:mean", "@type": "xsd:decimal" },
+        "std": { "@id": "prob:standard-deviation", "@type": "xsd:decimal" },
+
+        "Uniform": { "@id": "prob:Uniform" },
+        "lower": { "@id": "prob:lower-bound", "@container": "@list" },
+        "upper": { "@id": "prob:upper-bound", "@container": "@list" },
+
+        "UniformRotation": { "@id": "prob:UniformRotation" },
+
+        "Categorical": { "@id": "prob:Categorical" },
+        "event-probability": { "@id": "prob:event-probability", "@type": "xsd:decimal", "@container": "@list" },
+
+        "SampledQuantity": { "@id": "prob:SampledQuantity" },
+        "from-distribution": { "@id": "prob:from-distribution", "@type": "@id" }
+    }
+}

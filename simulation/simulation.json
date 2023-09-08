@@ -1,0 +1,11 @@
+{
+    "@context": {
+        "sim": "https://hbrs-sesame.github.io/metamodels/simulation#",
+
+        "SimulatedObject": { "@id": "sim:SimulatedObject" },
+        "has-shape": { "@id": "sim:has-shape", "@type": "@id" },
+        "has-attribute": { "@id": "sim:has-attribute", "@type": "@id" },
+
+        "ShapeModel": { "@id":"sim:ShapeModel" }
+    }
+}
