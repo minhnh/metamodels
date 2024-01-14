@@ -70,16 +70,16 @@ bdd:OfScenarioShape
   sh:nodeKind sh:IRI ;
   sh:minCount 1 .
 
-# A ScenarioVariable must be associated with 1 or more Scenario
-bdd:ScenarioVariableShape
+# A ScenarioTaskVariable must be associated with 1 or more Scenario
+bdd:ScenarioTaskVariableShape
   a sh:NodeShape ;
-  sh:targetClass bdd:ScenarioVariable ;
+  sh:targetClass bdd:ScenarioTaskVariable ;
   sh:property bdd:OfScenarioShape .
 bdd:OfVariableShape
   a sh:PropertyShape ;
-  sh:description ":of-variable must link to at least 1 :ScenarioVariable" ;
+  sh:description ":of-variable must link to at least 1 :ScenarioTaskVariable" ;
   sh:path bdd:of-variable ;
-  sh:class bdd:ScenarioVariable ;
+  sh:class bdd:ScenarioTaskVariable ;
   sh:nodeKind sh:IRI ;
   sh:minCount 1 .
 

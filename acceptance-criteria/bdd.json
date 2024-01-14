@@ -22,7 +22,7 @@
         "ScenarioHasAgents": { "@id": "bdd:ScenarioHasAgents" },
         "has-background": { "@id": "bdd:has-background", "@type": "@id" },
 
-        "ScenarioVariable": { "@id": "bdd:ScenarioVariable" },
+        "ScenarioTaskVariable": { "@id": "bdd:ScenarioTaskVariable" },
         "of-variable": { "@id": "bdd:of-variable", "@type": "@id" },
 
         "TimeConstraint": { "@id": "bdd:TimeConstraint" },
