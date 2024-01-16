@@ -11,16 +11,22 @@
         "when": { "@id": "bdd:when", "@type": "@id" },
         "then": { "@id": "bdd:then", "@type": "@id" },
 
+        "ScenarioTemplate": { "@id": "bdd:ScenarioTemplate" },
+        "of-template": { "@id": "bdd:of-template", "@type": "@id" },
+
+        "ScenarioVariant": { "@id": "bdd:ScenarioVariant" },
+
         "GivenClause": { "@id": "bdd:GivenClause" },
         "WhenClause": { "@id": "bdd:WhenClause" },
         "ThenClause": { "@id": "bdd:ThenClause" },
         "of-clause": { "@id": "bdd:of-clause", "@type": "@id" },
+        "has-clause": { "@id": "bdd:has-clause", "@type": "@id" },
 
         "WhenEvent": { "@id": "bdd:WhenEvent" },
 
-        "ScenarioHasObjects": { "@id": "bdd:ScenarioHasObjects" },
-        "ScenarioHasAgents": { "@id": "bdd:ScenarioHasAgents" },
-        "has-background": { "@id": "bdd:has-background", "@type": "@id" },
+        "SceneHasObjects": { "@id": "bdd:SceneHasObjects" },
+        "SceneHasAgents": { "@id": "bdd:SceneHasAgents" },
+        "has-in-scene": { "@id": "bdd:has-in-scene", "@type": "@id" },
 
         "ScenarioTaskVariable": { "@id": "bdd:ScenarioTaskVariable" },
         "of-variable": { "@id": "bdd:of-variable", "@type": "@id" },
